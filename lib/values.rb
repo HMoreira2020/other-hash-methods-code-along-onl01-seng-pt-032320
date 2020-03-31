@@ -9,5 +9,5 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  groceries.values
+  groceries.collect{|category| category.values}
 end
